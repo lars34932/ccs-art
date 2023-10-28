@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #090910;
+  gap: 20px;
+  cursor: none;
+  font-family: sans-serif;
+}
+
+.oog {
+  width: 140px;
+  height: 260px;
+  background: whitesmoke;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 20px 0px rgb(0, 0, 0);
+  position: relative;
+  transform: translate(100%, 0);
+}
+
+.iris {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgb(60, 125, 55) 0%, rgb(84, 196, 118) 30%, rgb(91, 75, 47) 70%);
+  position: relative;
+  position: absolute;
+}
+
+.pupil {
+  width: 65%;
+  height: 65%;
+  background-color: #090910;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.schijn {
+  width: 30%;
+  height: 35%;
+  background: #eee;
+  position: absolute;
+  top: 12%;
+  left: 18%;
+  border-radius: 50%;
+  transform: rotate(30deg);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dollar__oog {
+  font-size: 3rem;
+  color: green;
+}
+
+.brief {
+  width: 24rem;
+  height: 12rem;
+  border: #85BB65 1rem solid;
+  background: green;
+  padding: 1rem;
+  position: relative;
+  transform: translate(-50%, -50%);
+}
+
+.brief__deel2 {
+  background: #85BB65;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.brief {
+  position: relative;
+}
+
+.rondjes {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  background-color: green;
+}
+
+.rondje1 {
+  top: 0;
+  left: 0;
+  border-radius: 0 0 4rem 0;
+}
+
+.rondje2 {
+  top: 0;
+  right: 0;
+  border-radius: 0 0 0 4rem;
+}
+
+.rondje3 {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 4rem 0 0;
+}
+
+.rondje4 {
+  bottom: 0;
+  right: 0;
+  border-radius: 4rem 0 0 0;
+}
+
+.rondje {
+  height: 3rem;
+  width: 3rem;
+  background: green;
+  border-radius: 50%;
+}
+
+.rondje__groot {
+  height: 6rem;
+  width: 6rem;
+  background: green;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rondje__klein {
+  background: #85BB65;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dollar {
+  font-size: 4rem;
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
